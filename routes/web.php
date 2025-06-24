@@ -5,7 +5,7 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\TodoController;
 use Illuminate\Support\Facades\Route;
 
-// Optional: Redirect root ke halaman utama todo
+// Redirect root ke halaman utama todo
 Route::get('/', function () {
     return redirect('/todos');
 });
